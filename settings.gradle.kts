@@ -22,6 +22,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "lab2"
+rootProject.name = "Fodor_Eusebiu_ActivitateDAM2026"
 include(":app")
  
