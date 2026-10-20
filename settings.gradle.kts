@@ -24,3 +24,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "Fodor_Eusebiu_ActivitateDAM2026"
 include(":lab2")
+include(":lab4")
+include(":lab4:lab4seminar")
