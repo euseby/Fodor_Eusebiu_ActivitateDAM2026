@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">lab4Seminar</string>
     <string name="producator_ex_samsung">Producator (ex: Samsung)</string>
+    <string name="adaugaecran">AdaugaEcran</string>
+    <string-array name="rezolutii_array">
+        <item>1080p Full HD</item>
+        <item>1440p Quad HD</item>
+        <item>4k Ultra HD</item>
+    </string-array>
 </resources>

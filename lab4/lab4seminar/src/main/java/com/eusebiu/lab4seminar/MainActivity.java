@@ -1,6 +1,8 @@
 package com.eusebiu.lab4seminar;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -21,4 +23,9 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
     }
+    public void openActivityAdauga(View view ){
+        Intent intent = new Intent(getApplicationContext(), AdaugaEcran.class);
+        startActivity(intent);
+    }
+
 }
