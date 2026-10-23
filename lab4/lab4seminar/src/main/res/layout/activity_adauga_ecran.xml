@@ -95,7 +95,8 @@
             android:id="@+id/btnSalveaza"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="SALVEAZA" />
+            android:text="SALVEAZA"
+            android:onClick="salveazaDatele"/>
 
 
     </LinearLayout>
