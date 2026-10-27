@@ -40,7 +40,7 @@ public class AdaugaEcran extends AppCompatActivity {
 
         RadioGroup rgFormat = findViewById(R.id.rgFormat);
         int radioIdSelectat = rgFormat.getCheckedRadioButtonId();
-        RadioButton rbSelectat = findViewById(R.id.radioButton);
+        RadioButton rbSelectat = findViewById(radioIdSelectat);
         String format =(rbSelectat != null) ? rbSelectat.getText().toString() : "Neselectat";
         Spinner spinnerRez = findViewById(R.id.spinnerRezolutie);
         String rezolutie = spinnerRez.getSelectedItem().toString();
